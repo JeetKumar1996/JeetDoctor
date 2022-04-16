@@ -1,0 +1,968 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mochiy+Pop+P+One&family=Oswald:wght@300&family=Sansita+Swashed&family=Source+Code+Pro:ital,wght@1,300&family=Supermercado+One&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* font-family: 'Lobster', cursive;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Supermercado One', cursive;
+font-family: 'Ubuntu', sans-serif; */
+/* font-family: 'Lobster', cursive; */
+
+
+/* css code for index.html starts here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* specialhover effect css */
+nav ul li:hover
+{
+    border-bottom: 2px solid red;
+    opacity: 0.5;
+    color: aqua;
+}
+.topBanner .fa:hover 
+{
+    color: gold;
+    opacity: 0.7;
+}
+/* specialhover effect css */
+
+/* Joint CSS */
+.mainHeading
+{
+    font-family: 'Lobster', cursive;
+    color: rgb(14, 15, 116);
+}
+/* Joint CSS */
+
+/* body css */
+
+body {
+    box-sizing: border-box;
+}
+/* body css */
+
+/* section code  */
+.sections
+{
+    margin-top: 20px;
+}
+/* section code */
+/* header css */
+
+#header {
+    background-color: red;
+}
+
+.topBanner {
+    background-color: darkblue;
+    overflow: hidden;
+    width: 100%;
+    height: 60px;
+}
+.topContactInfo strong
+{
+    color: white;
+    display: inline-block;
+    margin: 16px 0px 5px 10px;
+}
+.topBanner .fa {
+    font-size: 20px;
+    margin: 15px 10px 5px 0;
+    padding: 6px;
+    float: right;
+    color:dodgerblue;
+}
+
+/* header css */
+
+/* navbar css */
+nav {
+    background-color: black;
+}
+
+nav ul {
+    text-align: center;
+    margin-bottom: 0;
+}
+.activeMenuItem
+{
+    color:blue;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    font-size: 18px;
+}
+nav ul a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+/* navbar css */
+
+/* slider css */
+.carousel-fade
+{
+    background-color: red;
+    margin-top: -14px;
+    padding: 0px;
+}
+.btn-success,.btn-primary
+{
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+}
+/* slider css */
+
+/* about section css */
+#aboutSection
+{
+    display: flex;
+    justify-content: space-around;
+    align-items:stretch;
+    height: 70vh;
+    margin-top: 50px;
+}
+.leftContainer
+{
+    margin: 15px;
+    padding: 10px;
+    width: 33%;
+}
+.leftContainer h2,.leftContainer h3,.leftContainer h4,.leftContainer h5
+{
+    margin: 15px 0 0 17px;
+    padding: 13px;
+    text-align: center;
+    color: dodgerblue;
+}
+.leftContainer .name,.profession
+{
+   font-family: 'Lobster', cursive;
+  color: blue;
+  font-size: 45px;
+  text-align: center;
+}
+.rightContainer
+{
+   background: url("/Pictures/DrJeet.png") no-repeat;
+   width: 33%;
+   background-size:contain;
+   background-position: center center;
+   margin: 15px;
+   padding: 10px;
+}
+.mainHeading h2
+{
+     margin-top: 50px;
+     text-align: center;
+}
+/* about section css */
+
+/* Contact Me Css Code */
+#contactSection
+{
+    margin-top: 25px;
+}
+form
+{
+    text-align: center;
+    color: red;
+}
+.contactFormBox input,.queryInput,.selectReason
+{
+    display: inline-block;
+    width: 50%;
+    margin: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    border:none;
+    border-bottom:2px solid darkblue ;
+    font-weight:600;
+}
+.contactFormBox textarea
+{
+    height: 20vh;
+}
+.contactFormBox label
+{
+    display: inline-block;
+    width: 50%;
+    color:black;
+}
+.dataSafeMessages
+{
+    width: 50%;
+    margin: 25px auto;
+
+}
+.dataSafeMessages strong
+{
+   color: blue;
+}
+/* Contact Me Css Code */
+/* services css code */
+#servicesSection
+{
+}
+.specialist
+{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    margin: 20px;
+    padding: 18px;
+}
+.specialistImg
+{
+    margin: auto;
+    width: 50%;
+}
+.specialistData
+{
+    width: 50%;
+}
+.specialistData p
+{
+    text-align: justify;
+    line-height: 2em;
+    text-indent: 1em;
+    margin-top: 10px;
+}
+.specialist h2
+{
+    color:blue;
+}
+.specialist img
+{
+    width:70%;
+    height: 30%;
+}
+/* services css code */
+
+/* testimonials css code */
+.card-main {  
+    padding: 50px;  
+    border-radius: 10px;  
+    margin-top: 50px;  
+    margin-bottom: 50px;  
+    box-shadow: 0px 4px 8px 0px #283593  
+}  
+.card-0 {  
+    color: #fff;  
+    background-color: #8990b7;  
+    position: relative;  
+    margin-left: 70px;  
+    border-radius: 10px;  
+    min-height: 312px  
+}  
+.carousel-indicators li {  
+    cursor: pointer;  
+    border-radius: 50% !important;  
+    width: 10px;  
+    height: 10px  
+}  
+.profile {  
+    color: #000;  
+    background-color: #9e8b8d;  
+    position: absolute;  
+    left: -70px;  
+    top: 17%;  
+    border-radius: 8px;  
+    border-top-left-radius: 0px;  
+    border-bottom-right-radius: 0px  
+}  
+.profile-pic {  
+    width: 120px;  
+    height: 120px;  
+    border-bottom-left-radius: 10px;  
+    border-top-right-radius: 10px  
+}  
+.open-quotes {  
+    margin-left: 130px;  
+    margin-top: 100px  
+}  
+.content {  
+    margin-left: 150px;  
+    margin-right: 80px  
+}  
+.close-quotes {  
+    margin-bottom: 100px;  
+    margin-right: 60px  
+}  
+@media screen and (max-width: 600px) {  
+    .card-main {  
+        padding: 50px 10px  
+    }  
+  
+    .card-0 {  
+        min-height: 432px  
+    }  
+    .profile {  
+        top: 24%  
+    }  
+    .profile-pic {  
+        width: 90px;  
+        height: 90px  
+    }  
+    .open-quotes {  
+        margin-left: 100px  
+    }  
+    .content {  
+        margin-left: 120px;  
+        margin-right: 50px  
+    }  
+    .close-quotes {  
+        margin-right: 30px  
+    }  }
+/* testimonials css code */
+
+/* newsletter css code */
+#newsletter
+{
+    margin-top: 20px;
+}
+.newsletterFormBox
+{
+    width: 70vw;
+    margin: auto;
+    color: blue;
+    text-align: center;
+}
+.newsletterFormBox input
+{
+    border: 2px solid green;
+    display: inline-block;
+    width: 40vw;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+/* newsletter css code */
+
+/* footer css code */
+#foot
+{
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+}
+.topFoot
+{
+    height: 10vh;
+    background-color:blue;
+    display: flex;
+    justify-content: space-between;
+}
+/* .topLeftFoot
+{
+} */
+.topLeftFoot p
+{
+   text-align: center;
+   color: white;
+   margin: 20px 0px 0px 20px;
+   font-weight: bold;
+   letter-spacing:3px;
+   font-size: 14px;
+}
+.topRightFoot .fa
+{
+    color: white;
+    margin: 15px 0 0 0;
+    padding: 10px;
+    font-size: 18px;
+}
+.midFoot,.bottomFoot
+{
+    background-color: #000000ca;
+}
+.midFoot
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.midLeftFoot,.midMiddleFoot,.midRightFoot
+{
+    width: 30vw;
+    margin: 35px 15px 0 15px;
+}
+.midLeftFoot h3,.midMiddleFoot h3,.midRightFoot h3
+{
+    color: blue;
+}
+.midLeftFoot p
+{
+    text-align: justify;
+    margin-top: 20px;
+}
+.midMiddleFoot ul
+{
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 1px;
+    font-size: 22px;
+}
+.midRightFoot .fa
+{
+    margin-top: 20px;
+}
+.midMiddleFoot ul li a
+{
+    margin: 8px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.bottomFoot
+{
+    background-color: black;
+}
+/* footer css code */
+
+/* index.html css code ends here */
+
+/* about.html css code starts here */
+#introPlusImage
+{
+    display: flex;
+    background-color: steelblue;
+    padding: 40px;
+}
+.aboutMeBlock
+{
+   width: 50vw;
+}
+.aboutMeBlock h2
+{
+    font-size: 18px;
+    color:blue;
+    margin: 15px 0 0 15px;
+    padding: 15px;
+}
+.aboutMeBlock h3
+{
+    color: white;
+    font-size: 48px;
+    letter-spacing: 0.8rem;
+    margin-left: -25px;
+    padding: 10px;
+}
+.aboutMeBlock p
+{
+    text-align: justify;
+    color: white;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+    line-height:2.2rem;
+    margin: 10px;
+    padding: 10px;
+}
+.myPictureBlock
+{
+    width: 50vw;
+    margin: auto;
+   text-align: center;
+}
+.myPictureBlock img
+{
+    height: 50%;
+    width: 50%;
+    object-fit:fill;
+}
+#aboutMeWithExperiance
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 45px;
+    padding: 22px;
+    text-align: justify;
+    line-height: 2rem;
+}
+.aboutTitle,.myValueHeading strong
+{
+   color: blue;
+}
+.rightBlock,.leftBlock
+{
+   width: 49vw;
+   margin: 10px;
+   padding: 10px;
+}
+.leftBlock h2
+{
+    font-size: 33px;
+    font-weight: bold;
+}
+.rightBlock img
+{
+   height: 80vh;
+   width: 100%;
+   padding: 20px;
+}
+#myValueAndResponsiblity
+{
+}
+.myValueHeading
+{
+    width: 50%;
+    text-align: center;
+    margin: 15px auto;
+    padding: 10px;
+}
+.myValueHeading h2
+{
+    font-weight: bold;
+    font-size: 36px;
+}
+.responsibilityMainBlock1,.responsibilityMainBlock2
+{
+    display: flex;
+    background-color:darkblue;
+    text-align: justify;
+    color: white;
+}
+.res
+{
+    margin: 10px;
+    padding: 10px;
+}
+.res h2
+{
+    color: dodgerblue;
+}
+.leftTopMainBlock
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 45vw;
+    margin: 20px auto;
+    height: 40vh;
+    padding: 25px;
+}
+.rightTopMainBlock
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 45vw;
+    margin: 20px auto;
+    height: 40vh;
+    padding: 25px;
+}
+.leftBottomMainBlock
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 45vw;
+    margin: 20px auto;
+    height: 40vh;
+    padding: 25px;
+}
+.rightBottomMainBlock
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 45vw;
+    margin: 20px auto;
+    height: 40vh;
+    padding: 25px;
+}
+.resImage img
+{
+    height: 100px;
+    width: 40vw;
+    position: relative;
+    top: 40px;
+    border-radius: 50%;
+}
+/* #myStudySection
+{
+    margin-top:50px;
+}
+.studySectionLeft
+{
+    width: 45vw;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+.studySectionRight
+{
+    width: 50vw;
+    float: left;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.specialistParagraph
+{
+    text-align: justify;
+    background-color: cyan;
+    line-height: 2rem;
+    font-size: 1rem;
+    word-spacing: 0.2rem;
+}
+.scrollspy-example
+{
+    margin: 10px;
+    padding: 10px;
+}
+.nav-pills li
+{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+} */
+#specislistSection
+{
+    padding: 20px;
+}
+.specialistTopMainBlock
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.specialistTopHeading
+{
+    font-weight: bold;
+    font-size: 36px;
+    white-space:pre-line;
+}
+.specialistTopLeftBlock
+{
+     width: 40vw;
+}
+.specialistTopRightBlock
+{
+    width: 30vw;
+}
+#specialistBottomMainBlock
+{
+    margin: auto;
+}
+.learnMoreDiv
+{
+    width: 40%;
+    margin: auto;
+}
+
+.specislistContainer
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.specialistBlock
+{
+    height: 70vh;
+    width: 30vw;
+    margin: 10px;
+    padding: 10px;
+    overflow-x: scroll;
+}
+.specialistBlock img
+{
+    height: 40%;
+    width: 40%;
+    clip-path: circle();
+    object-fit:fill;
+}
+/* about.html css code ends here */
+
+/* contact us css code starts here */
+.topHeadingBox
+{
+    background-color: gray;
+    padding: 30px;
+    color: darkblue
+}
+#contactFormSection
+{
+}
+.formBox
+{
+    padding: 20px;
+    width: 80vw;
+    margin:20px auto;
+}
+.contactInputs
+{
+    /* box-shadow: 10px 10px 10px red; */
+}
+.contactInputs input,select,textarea
+{
+    display: inline-block;
+    width:45%;
+    height:44px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkblue;
+}
+#nameWithEmailBlock,#mobileWithReasonBlock
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+#queryBox textarea
+{
+    width: 88%;
+    margin: 10px;
+    padding: 10px;
+    height: 19vh;
+}
+.contactBtn
+{
+    background-color: dodgerblue;
+    margin: 10px;
+    padding: 15px;
+}
+.contactBtn:hover
+{
+    background-color: blue;
+    border: 2px solid black;
+}
+#contactDataWithGmap
+{
+    display: flex;
+    padding: 20px;
+}
+.leftData
+{
+    margin: 15px;
+    padding: 15px;
+}
+.leftData p
+{
+    line-height: 2.5rem;
+    text-align: justify;
+    margin-top: 20px;
+    text-indent: 2rem;
+    font-size: 18px;
+}
+.leftData h2
+{
+    letter-spacing: 0.4rem;
+    word-spacing: 0.4rem;
+    font-weight: bold;
+}
+.rightData
+{
+    margin: 15px;
+    padding: 15px;
+    width: 60%;
+}
+.fafaIcons
+{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    flex-wrap: unset;
+    justify-content: space-evenly;
+    font-size: 24px;
+    margin-top: 32px;
+}
+.fafaIcons .fa
+{
+    border: 2px solid blue;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+}
+#medicalHours
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: dodgerblue;
+    margin-top: 25px;
+    padding: 30px;
+}
+.medicalHoursLeft
+{
+    display: flex;
+    justify-content: center;
+}
+.medicalHoursRight
+{
+    display: flex;
+    justify-content: center;
+}
+.faDiv
+{
+    margin: 15px;
+    padding: 15px;
+}
+.dataDiv
+{
+}
+.faDiv .fa
+{
+    font-size: 80px;
+}
+.dataDiv h3
+{
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+.dataDiv p
+{
+    content: "\a";
+    white-space: pre-wrap;
+    color: white;
+}
+.faqMainBox
+{
+    margin: 10px;
+    position: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.leftFaqBox,.rightFaqBox
+{
+     margin: 20px;
+     padding: 20px;
+     width: 50vw;
+}
+.accordion-item
+{
+    margin: 20px;
+    padding: 20px;
+}
+.accordion-button::after
+{
+    background-color: red;
+}
+/* contact us css code ends here */
+
+/* services.html css code starts here */
+.topSection
+{
+    background:linear-gradient(to right,rgb(75, 75, 180),dodgerblue,darkblue);
+    margin: auto;
+    text-align: center;
+}
+.topSection h2
+{ 
+    color: white;
+    font-size: 56px;
+    letter-spacing: 0.5rem;    
+}
+.miniHeading
+{
+     color: darkblue;
+     letter-spacing: 0.3rem;
+     font-size: 20px;
+}
+.midSection
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+.specialities
+{
+    margin: 15px;
+    padding: 15px;
+}
+.specialities p
+{
+    text-align: justify;
+    line-height: 2rem;
+    font-weight: bolder;
+    text-indent: 3rem;
+}
+.specialities img
+{
+    height: 30vh;
+    width: 30vw;
+    clip-path: circle();
+}
+.specialities h3
+{
+    padding: 20px;
+    text-align: center;
+}
+.specialities div
+{
+    color: dodgerblue;
+    font-weight: bold;
+}
+#servicesTwo
+{
+    margin-top: 44px;
+}
+.secondMainBlock
+{
+    display: flex;
+    justify-content: center;
+}
+.secondLeftBlock
+{
+    width: 50%;
+    padding: 20px;
+    background-color: darkblue;
+}
+.secondLeftBlock h2
+{
+    color: white;
+    font-size: 36px;
+    padding: 16px;
+}
+.secondLeftBlock p
+{
+    text-align: justify;
+    line-height: 2.5rem;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+.secondLeftBlock strong
+{
+    color: dodgerblue;
+    padding: 20px;
+}
+.secondRightBlock
+{
+    width: 50%;
+}
+.secondRightBlock img
+{
+    height: 100vh;
+    width: 100vw;
+}
+.bookApp
+{
+    width: 80%;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+/* services.html css code starts here */
